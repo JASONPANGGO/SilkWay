@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/weinisistyle.css">
+    <link rel="icon" type="image/x-icon" href="../camel.ico"/> 
+    <script src="../js/vue.min.js"></script>
+    <script src="../js/vue-router.min.js"></script>
+    <title>威尼斯</title>
+</head>
+<body>
+        <div class="navigation">
+                <a class="logo" href="../index.html">
+                </a>
+                <a class="home" href="../index.html">首页</a>
+                <a class="destination" href="../index.html#map">目的地</a>
+                <a class="history" href="history.html">历史</a>
+                <a class="story" href="diangu.html">典故</a>
+                <a class="shop" href="shop.html">丝绸商城</a>
+                <a class="weibo" href="#"></a>
+                <a class="qq" href="#"></a>
+                <a class="wechat" href="#"></a>
+                <a class="login" href="login.html">登录</a>
+                <a class="signup" href="signup.html">注册</a>
+            </div>
+<div class="head">
+    <div class="eyebrow"></div>
+    <div class="card animated fadeIn">
+        <div class="country">
+        意大利
+        </div>
+        <div class="card-title">
+        威尼斯
+        </div>
+        <div class="thename">
+        Venice
+        </div>
+        <div class="card-body">
+            威尼斯（Venice）是意大利东北部著名的旅游与工业城市，也是威尼托地区的首府。威尼斯曾经是威尼斯共和国的中心，被称作“亚得里亚海明珠”，十字军进行十字军东征时也曾在这里集结，堪称世界最浪漫的城市之一。 威尼斯市区涵盖意大利东北部亚得里亚海沿岸的威尼斯潟湖的118个岛屿和邻近一个半岛，更有117条水道纵横交叉。
+        </div>
+    </div>
+</div>
+
+    <div class="leftside">
+        <div class="travellers">
+            <div class="title">
+                旅行家专栏
+            </div>
+            <a href="details/weinisi_tr1.html">
+            <div class="travellers-img">
+                <img src="../img/traveller/6.jpg">
+            </div>
+            </a>
+            <div class="travellers-text">
+                <a href="details/weinisi_tr1.html">
+                <div class="little-title">
+                    文艺复兴之旅
+                </div>
+                </a>
+                <div class="content">
+                    意大利是终极梦中情人，美貌无与伦比，知识丰富渊博，在厨房里也很有一手。他永远激发你的灵感，天生就懂得调情的艺术，让你在甜蜜又酸楚地说完再见后，依然久久念念不忘。
+                    <!--http://bbs.qyer.com/thread-2920415-1.html-->
+                </div>
+            </div>
+        </div>
+        <div class="guide">
+            <div class="title">旅行攻略</div>
+            <div class="guide-item">
+                <a href="details/weinisi_tr2.html">
+                    <div class="travellers-img">
+                        <img src="../img/weinisi/guide/1.jpg">
+                    </div>
+                </a>
+                 <div class="travellers-text">
+                    <a href="details/weinisi_tr2.html">
+                    <div class="little-title">
+                        这一站，意大利
+                    </div>
+                    </a>
+                    <div class="content">
+                        威尼斯净是狭长小道或者水道，走着走着就会遇到惊喜，特别喜欢这边的门把手，仿佛诉说着曾经的故事。...
+                        <!--http://bbs.qyer.com/thread-2879320-1.html-->
+                    </div>
+                </div>
+            </div>
+            <div class="guide-item">
+                    <a href="#">
+                        <div class="travellers-img">
+                            <img src="../img/weinisi/guide/2.jpg">
+                        </div>
+                    </a>
+                     <div class="travellers-text">
+                        <a href="#">
+                        <div class="little-title">
+                            下一刻，会更美
+                        </div>
+                        </a>
+                        <div class="content">
+                            浮光碎影，瑞意纵横—...
+                            <!--http://bbs.qyer.com/thread-1390547-1.html-->
+                        </div>
+                    </div>
+                </div>
+                <div class="guide-item">
+                        <a href="#">
+                            <div class="travellers-img">
+                                <img src="../img/weinisi/guide/3.jpg">
+                            </div>
+                        </a>
+                         <div class="travellers-text">
+                            <a href="#">
+                            <div class="little-title">
+                                一场永无止境的华丽盛宴
+                            </div>
+                            </a>
+                            <div class="content">
+                                从此你不再只是我的梦想...
+                                <!--http://bbs.qyer.com/thread-1073723-1.html-->
+                            </div>
+                        </div>
+                    </div>
+                    
+        </div>
+    </div>
+    
+    <div class="rightside">
+        <div class="title">
+        当地特色
+        </div> 
+        <br>
+        <div class="router-container">
+        <router-link to="/food">
+        <div class="food">
+        美食
+        </div>
+        </router-link>
+
+        <router-link to="/traffic">
+        <div class="hotel">
+        酒店
+        </div>
+        </router-link>
+
+        <router-link to="/view">
+        <div class="view">
+        景点
+        </div>
+        </router-link>
+        </div>
+
+        <div class="details-container">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <router-view></router-view>
+        <a href="weinisi.html">
+            <div class="next">
+                <img src="../img/camel.png" width="60px" alt="">
+                    下一站...
+            </div>
+            </a>
+        </div>
+    </div>
+</body>
+    <script type="text/template" id="tp1">
+        <div class="details-container">
+            <div class="bottom-bar">
+                <div class="bar1"></div>
+            </div>
+            <div class="item-list">
+                <div class="item"><a href="details/weinisi_food1.html">
+                    <div class="item-img"><img src="../img/weinisi/food/1.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="details/weinisi_food1.html">
+                    <div class="item-title">小飞狮餐厅</div>
+                    </a>
+                    <div class="item-details-text">
+                    <br></br>这个餐厅支持支付宝付款,环境很优雅,擅长烹饪威尼斯传统美食，尤其是海鲜。...</div>
+                    </div>
+                </div>
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/food/2.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Trattoria Hostaria Venexiana</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>这是一家海鲜餐厅，物美价廉，很受当地人欢迎...</div>
+                </div>
+            </div>
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/food/3.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Pontini</div>
+                </a>
+                <div class="item-details-text">
+                    <br></br>推荐海鲜意大利面。餐馆的视野非常好，很多当地人都会来这里吃饭。...
+                </div>
+                </div>
+            </div>
+            <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/food/5.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">Taverna San Trovaso</div>
+                    </a>
+                    <div class="item-details-text">
+                    <br></br>Lasagna千层面、餐前酒Bellini、Caprese卡布里沙拉...
+                        </div>
+                    </div>
+            </div>  
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/food/4.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Kori Grill – Pizzeria Mopi S.R.L</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>一家在威尼斯非常有名的意大利pizza店，里面有几十种pizza...
+                </div>
+                </div>
+                </div>
+            <div class="item"><a href="#">
+            <div class="item-img"><img src="../img/weinisi/food/6.jpg"></div>
+            </a>
+            <div class="item-details">
+            <a href="#">
+            <div class="item-title">Caffè Florian</div>
+            </a>
+            <div class="item-details-text">
+            <br></br>著名的花神咖啡厅，位于圣马可广场，历史非常悠久，约300年...
+            </div>
+            </div>
+            </div>
+            
+        </div>
+            </div>
+    </script>
+
+    <script type="text/template" id="tp2">
+        <div class="details-container">
+        <div class="bottom-bar">
+            <div class="bar2"></div>
+        </div>
+        <div class="item-list">
+            <div class="item"><a href="details/weinisi_hotel1.html">
+                <div class="item-img"><img src="../img/weinisi/hotel/1.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="details/weinisi_hotel1.html">
+                <div class="item-title">Palazzetto Madonna</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>一幢历史悠久的建筑中，距离威尼斯的里亚托桥有不到15分钟的步行路程...</div>
+                </div>
+            </div>
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/hotel/2.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Hotel Universo & Nord</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>酒店提供空调客房，距圣卢西亚火车站100米，距离最近的水上巴士站仅有2分钟步行路程。...</div>
+                </div>
+            </div>
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/hotel/3.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Generator Venice</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>酒店坐落在朱代卡岛的岸边，享有远处圣马可广场的景致。客人从酒店出发乘坐水上巴士4.1、4.2和2号线仅需10分钟即可到达威尼斯岛..</div>
+                </div>
+            </div>
+            <div class="item"><a href="#">
+                <div class="item-img"><img src="../img/weinisi/hotel/4.jpg"></div>
+                </a>
+                <div class="item-details">
+                <a href="#">
+                <div class="item-title">Hotel Abbazia</div>
+                </a>
+                <div class="item-details-text">
+                <br></br>位于一栋翻修过的寺院内，坐落在威尼斯安静的Cannaregio区，距离Santa Luica火车站有10米...</div>
+                </div>
+            </div>
+         
+        </div>
+        </div>
+    </script>
+
+    <script type="text/template" id="tp3">
+        <div class="details-container">
+        <div class="bottom-bar">
+            <div class="bar3"></div>
+        </div>
+        <div class="item-list">
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/1.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">威尼斯叹息桥</div>
+                    </a>
+                    <div class="item-details-text">
+                    <br></br>这里是犯人经过总督府通往后面监狱的必经之桥，因为犯人经过此桥时常忏悔而叹息而得名...</div>
+                    </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/2.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">威尼斯圣马可广场</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>圣马可广场受到游客、摄影师和鸽子的格外青睐。19世纪法国皇帝拿破仑曾称赞其为“欧洲最美的客厅”...</div>
+                    </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/3.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">威尼斯圣马可大教堂</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>公元829年威尼斯商人们为了将圣马可(马可福音的作者)运回威尼斯所建造的...
+                    </div>
+                </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/4.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">威尼斯圣马可钟楼</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>圣马可钟楼是意大利威尼斯的一座钟楼，位于圣马可广场的附近，靠近圣马可教堂的前方，为威尼斯的地标之一...
+                    </div>
+                </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/5.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">玻璃岛</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>世界闻名的玻璃制品生产地，工艺独一无二，最广泛流传的是玻璃的吹气功。岛上还有一个玻璃博物馆，可参观各色各样的玻璃制品，其中以14、15世纪的玻璃制品最为著名。...
+                    </div>
+                </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/6.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">彩色岛</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>被世界上众多国际杂志誉为“世界上色彩最丰富的地点”之一...
+                    </div>
+                </div>
+                </div>
+                <div class="item"><a href="#">
+                    <div class="item-img"><img src="../img/weinisi/view/7.jpg"></div>
+                    </a>
+                    <div class="item-details">
+                    <a href="#">
+                    <div class="item-title">威尼斯公爵宫（总督府）</div>
+                    </a>
+                    <div class="item-details-text">
+                        <br></br>30级的大理石台阶上部竖立着战神和海神的巨大雕塑...
+                    </div>
+                </div>
+                </div>
+        </div>
+    </script>
+<script type=""></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/xianapp.js"></script>
+</html>

@@ -1,0 +1,42 @@
+.item-img {
+    float: left;
+    width: 45%;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 2px;
+    background-image: url("../img/Nederland/travellers/2.jpg");
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background-image: url("../img/Nederland/travellers/3.jpg");
+}
+
+.img3 {
+    background-image: url("../img/Nederland/travellers/4.jpg");
+}
+
+.img4 {
+    background-image: url("../img/Nederland/food/1.jpg");
+}
+
+.img5 {
+    background-image: url("../img/Nederland/food/3.jpg");
+}
+
+.img6 {
+    background-image: url("../img/Nederland/hotel/1.jpg");
+}
+
+.img7 {
+    background-image: url("../img/Nederland/view/1.jpg");
+}
+
+.img8 {
+    background-image: url("../img/Nederland/view/2.jpg");
+}
+
+.img9 {
+    background-image: url("../img/Nederland/travellers/1.jpg");
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>大众巷</title>
+    <link rel="stylesheet" href="../../css/button.css">
+    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/detail.css">
+    <link rel="stylesheet" href="../../css/lanzhou_details.css">
+    <style type="text/css">
+        html,body{margin:0;padding:0;}
+        .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+        .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+        #dituContent img{
+  max-width: none;
+}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+    <div class="navigation">
+        <a class="logo" href="../../index.html"></a>
+        <a class="home" href="../../index.html">首页</a>
+        <a class="destination" href="../../index.html#map">目的地</a>
+        <a class="history" href="../history.html">历史</a>
+        <a class="story" href="#">典故</a>
+        <a class="shop" href="../shop.html">丝绸商城</a>
+        <a class="weibo" href="#"></a>
+        <a class="qq" href="#"></a>
+        <a class="wechat" href="#"></a>
+        <a class="login" href="../login.html">登录</a>
+        <a class="signup" href="../signup.html">注册</a>
+    </div>
+    <div class="head"><img src="../../img/xian/2.jpg"><div>
+    <div class="container">
+        <div class="leftside">
+            <div class="title">大众巷</div>
+            <div class="second-title">
+                <blockquote>兰州的小吃街不少，张掖路以北的大众巷尤其知名。这里集中了多家在兰州声望很高的老字号，如“马子禄牛肉面”灰豆王“茹记烤肉”金城炒面片"等等。</blockquote>
+            </div>
+            <div class="content">
+            <img src="../../img/lanzhou/detail/spot4.jpg" style="width: 700px;margin-top: 10px;margin-bottom: 10px;">
+            <img src="../../img/lanzhou/detail/spot5.jpg"  style="width: 700px;margin-top: 10px;margin-bottom: 10px;">
+            
+            <p>兰州的小吃街不少，张掖路以北的大众巷尤其知名。这里集中了多家在兰州声望很高的老字号，如“马子禄牛肉面”、“灰豆王”、“茹记烤肉”“金城炒面片”等等。除此以外，这里还有一些小店，虽然籍籍无名，却依然口味地道，如很受姑娘们喜欢的酿皮、油炒凉粉、灰豆子、冬果子，在这里都可以吃到。总之，大众巷每天都演绎着纯粹的兰州美食传说，到了这里，不怕没的吃，只怕肚子小。</p> 
+            <br>
+                
+                <h4>位置</h4>
+                  <!--百度地图容器-->
+        <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+                
+                <h4>交通</h4>
+                <p>市内乘坐公交4路、6路、9路、25路、74路、112路、137路到永昌路北口站下可到。</p> 
+                <br>
+                
+                <h4>门票</h4>
+                <p>不用门票</p> 
+                <br>
+                
+                <h4>开放时间</h4>
+                <p>06:00-24:00</p> 
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="right-title">相关推荐</div>
+            <div class="item-list">
+                <a href="lanzhou_traveller2.html" class="thea">
+                <div class="item">
+                    <div class="item-img img2"></div>
+                    <div class="item-title">两天时间吃爆兰州“网红店”！</div>
+                    <div class="thelabel">
+                    <div class="label label-default">攻略</div>
+                    </div>
+                </div>
+                </a>
+                <a href="lanzhou_traveller3.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img3"></div>
+                            <div class="item-title">醉卧兰州城，一袭江南梦</div>
+                            <div class="thelabel">
+                            <div class="label label-default">攻略</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="lanzhou_food1.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img4"></div>
+                            <div class="item-title">兰州牛肉面</div>
+                            <div class="thelabel">
+                            <div class="label label-default">美食</div>
+                            </div>
+                        </div>
+                </a> 
+                <a href="lanzhou_food2.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img5"></div>
+                            <div class="item-title">酿皮</div>
+                            <div class="thelabel">
+                            <div class="label label-default">美食</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="lanzhou_food3.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img6"></div>
+                            <div class="item-title">手抓羊肉</div>
+                            <div class="thelabel">
+                            <div class="label label-default">美食</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="lanzhou_hotel1.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img7"></div>
+                            <div class="item-title">兰州皇冠假日酒店</div>
+                            <div class="thelabel">
+                            <div class="label label-default">酒店</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="lanzhou_hotel2.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img8"></div>
+                            <div class="item-title">甘肃阳光大酒店</div>
+                            <div class="thelabel">
+                            <div class="label label-default">酒店</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="lanzhou_spot1.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img9"></div>
+                            <div class="item-title">白塔山</div>
+                            <div class="thelabel">
+                            <div class="label label-default">景点</div>
+                            </div>
+                        </div>
+                </a>   
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(108.939313,34.260813);//定义一个中心点坐标
+        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+    map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+    map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();//创建和初始化地图
+</script>
+</html>

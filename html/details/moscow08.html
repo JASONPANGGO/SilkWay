@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>莫斯科</title>
+    <link rel="stylesheet" href="../../css/button.css">
+    <link rel="stylesheet" href="../../css/animate.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/navigation.css">
+    <link rel="stylesheet" href="../../css/detail.css">
+    <link rel="stylesheet" href="../../css/moscowdetail.css">
+    <style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+	#dituContent img{max-width: none;}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+    <div class="navigation">
+        <a class="logo" href="../../index.html"></a>
+        <a class="home" href="../../index.html">首页</a>
+        <a class="destination" href="../../index.html#map">目的地</a>
+        <a class="history" href="../history.html">历史</a>
+        <a class="story" href="#">典故</a>
+        <a class="shop" href="../shop.html">丝绸商城</a>
+        <a class="weibo" href="#"></a>
+        <a class="qq" href="#"></a>
+        <a class="wechat" href="#"></a>
+        <a class="login" href="../login.html">登录</a>
+        <a class="signup" href="../signup.html">注册</a>
+    </div>
+    <div class="head"><img src="../../img/moscow/1.jpg" style="height:600px"><div>
+    <div class="container">
+        <div class="leftside">
+            <div class="title">红场</div>
+            
+            <div class="content">
+            <p>红场(俄语：Кра́сная пло́щадь)是特维尔区的一个公众广场。红场之内或边缘有几处著名建筑，包括列宁墓、圣巴西尔大教堂和克里姆林宫。红场东边是国家百货商场，其隔壁有国家历史博物馆。红场长695米、宽130米。红场所在的土地曾是有建筑的，但被1571年莫斯科大火烧毁。新空地（原来称为Pozhar, 或“烧光的地方”）逐渐成为莫斯科的主要市场。尔后，红场也用于各种公共典礼，偶尔也作为俄罗斯帝国沙皇加冕之地。红场自那时候逐渐振兴，并自其建立时由所有俄罗斯政府用于官方典礼。红场于1812年以后扩建，拿破仑的军队焚烧了莫斯科，当地人民重建家园的时候拓宽了红场。到20世纪20年代，红场又与附近的瓦西列夫斯基广场合并形成现在的规模。红场的名称不是从环绕它的砖头颜色衍生而来，也不是从红色和苏维埃之间的联系衍生而来(亦因此所以有不少人曾将此误作红墙)。产生红场之名是因为俄文字ldquo;Красная”（krasnaya）意指红的或美丽的。先是应用于华西里教堂，并随后转移至邻近广场。</p>
+            <br>
+             <img src="../../img/moscow/view/1.jpg" style="width: 90%">
+             <h4>到达方式：</h4>
+             <p>
+搭乘地铁1号线至猎人商铺站（Охотный ряд），搭乘2号线至剧院站（Театральная），3号线至革命广场站（Площадь Революции），6、7号线至中国城站（Китай-город），下车步行即到；或搭乘25路公交车，1、2、8、12、16、25、33路无轨电车前往</p>
+           <br>
+           <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+           <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(37.621567,55.75348);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    
+    initMap();//创建和初始化地图
+</script>
+            
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="right-title">相关推荐</div>
+            <div class="item-list">
+                <a href="moscow01.html" class="thea">
+                <div class="item">
+                    <div class="item-img"></div>
+                    <div class="item-title">莫斯科，你怎生的如此美丽！</div>
+                    <div class="thelabel">
+                    <div class="label label-default">攻略</div>
+                    </div>
+                </div>
+                </a>
+                <a href="moscow02.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img2"></div>
+                            <div class="item-title">莫斯科的红场，雄伟的克里姆林宫</div>
+                            <div class="thelabel">
+                            <div class="label label-default">攻略</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="moscow03.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img3"></div>
+                            <div class="item-title">走进莫斯科地铁</div>
+                            <div class="thelabel">
+                            <div class="label label-default">攻略</div>
+                            </div>
+                        </div>
+                </a> 
+                <a href="moscow04.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img4"></div>
+                            <div class="item-title">57号食堂</div>
+                            <div class="thelabel">
+                            <div class="label label-default">美食</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="moscow05.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img5"></div>
+                            <div class="item-title">Теремок (阿尔巴特街店)</div>
+                            <div class="thelabel">
+                            <div class="label label-default">美食</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="moscow06.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img6"></div>
+                            <div class="item-title">诺富特莫斯科城酒店</div>
+                            <div class="thelabel">
+                            <div class="label label-default">酒店</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="moscow07.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img7"></div>
+                            <div class="item-title">莫斯科宇宙酒店</div>
+                            <div class="thelabel">
+                            <div class="label label-default">酒店</div>
+                            </div>
+                        </div>
+                </a>
+                <a href="moscow09.html" class="thea">
+                        <div class="item">
+                            <div class="item-img img9"></div>
+                            <div class="item-title">克里姆林宫</div>
+                            <div class="thelabel">
+                            <div class="label label-default">景点</div>
+                            </div>
+                        </div>
+                </a>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>

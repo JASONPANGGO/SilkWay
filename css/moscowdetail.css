@@ -1,0 +1,61 @@
+.item-img {
+
+    float: left;
+    width: 45%;
+    height: 100px;
+    background-color: bisque;
+    border-radius: 2px;
+    background-image: url("../img/moscow/travellers/3.jpg");
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.item-title {
+    width: 45%;
+    height: 20px;
+    float: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.label {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.thea:hover {
+    color: orange;
+}
+
+.img2 {
+    background-image: url("../img/moscow/travellers/1.jpg");
+}
+
+.img3 {
+    background-image: url("../img/moscow/travellers/4.jpg");
+}
+
+.img4 {
+    background-image: url("../img/moscow/food/1.jpg");
+    background-size: 105%;
+}
+
+.img5 {
+    background-image: url("../img/moscow/food/2.jpg");
+}
+
+.img6 {
+    background-image: url("../img/moscow/hotel/1.jpg");
+}
+
+.img7 {
+    background-image: url("../img/moscow/hotel/2.jpg");
+}
+
+.img8 {
+    background-image: url("../img/moscow/view/1.jpg");
+}
+
+.img9 {
+    background-image: url("../img/moscow/view/2.jpg")
+}
